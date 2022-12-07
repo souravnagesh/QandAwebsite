@@ -74,7 +74,7 @@ const questionsList = useSelector(state => state.questionsReducer)
     const Navigate = useNavigate()
     const User = useSelector((state) => (state.currentUserReducer))
     const location = useLocation();
-    const url = "https://localhost:5000"
+    const url = "http://localhost:5000"
 
     const handlePostAns = (e , answerLength) =>{
         e.preventDefault()
